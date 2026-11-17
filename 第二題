@@ -4,3 +4,7 @@ def group_students(n):
             print(f"學號 {i}：第二組（雙數組）")
         else:
             print(f"學號 {i}：第一組（單數組）")
+
+
+# 呼叫函式
+group_students(24)
