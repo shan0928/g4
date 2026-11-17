@@ -1,0 +1,8 @@
+def group_students(n, gn):
+    for i in range(1, n + 1):
+        group = (i - 1) % gn + 1
+        print(f"學號 {i}：第 {group} 組")
+
+
+# 呼叫函式
+group_students(24, 4)
