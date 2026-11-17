@@ -1,0 +1,6 @@
+def group_students(n):
+    for i in range(1, n + 1):
+        if i % 2 == 0:
+            print(f"學號 {i}：第二組（雙數組）")
+        else:
+            print(f"學號 {i}：第一組（單數組）")
